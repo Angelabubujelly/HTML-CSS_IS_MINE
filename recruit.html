@@ -17,7 +17,7 @@
             <li><a href="#" class="menu">소개</a></li>
             <li><a href="#" class="menu">미용</a></li>
             <li><a href="#" class="menu">관람예술</a></li>
-            <li><a href="#" class="menu">참여예술</a></li>
+            <li><a href="play.html" class="menu">참여예술</a></li>
             <li><a href="#" class="menu">게시판</a></li>
             <li><a href="#" class="menu" id="loginBtn">로그인</a></li>
         </ul>
@@ -37,14 +37,12 @@
             <button><img src="img/iconMG.png" alt="검색버튼"></button>
         </form>
     </article>
-    <!-- 글쓰기버튼 -->
-    <article>
-        <div class="writeDiv">
-        <input type="button" value="글쓰기" id="write" onclick="writeRecruit()">
-        </div>
-    </article>
     <!-- 글목록 -->
     <article>
+         <div class="writeDiv">
+            <a>#<span>역할 <img src="img/arrowBottomPink.png" alt="펼치기"></span></a>
+        <input type="button" value="글쓰기" id="write" onclick="writeRecruit()">
+        </div>
         <div id="listFrame">
             <div class="top">
                 <div>
