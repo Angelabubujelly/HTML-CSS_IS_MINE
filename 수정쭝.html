@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/myPageInfo.css">
+</head>
+<body>
+    <header>
+        <nav id="navi">
+            <a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a>
+            <ul>
+                <li><a href="#" class="menu">소개</a></li>
+                <li><a href="#" class="menu">미용</a></li>
+                <li><a href="#" class="menu">관람예술</a></li>
+                <li><a href="#" class="menu">참여예술</a></li>
+                <li><a href="#" class="menu">게시판</a></li>
+                <li><a href="#" class="menu" id="loginBtn">로그인</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <article class="myPageHeader">
+            <div>
+                <div>
+                    <img src="img/ha.PNG" alt="프로필 이미지">
+                    <p>우사기사기사기우</p>
+                    <div>
+                        <img src="img/settings.png" alt="프로필 설정">
+                    </div>
+                </div>
+                <div>
+                    <div>장바구니</div>
+                    <div>주문조회</div>
+                    <div>내가 쓴 글</div>
+                    <div  id="myPageCheck">회원정보 수정<hr></div>
+                </div>
+            </div>
+            <hr>
+        </article>
+        <article  class="myPageInfoFrm">
+            <form>
+                <div>
+                    <div>이메일</div>
+                    <div><input type="email" placeholder="이메일" title="이메일 앞부분" maxlength="20" value=""></div>
+                    <span>@</span>
+                    <div><input type="email" placeholder="이메일" title="이메일 앞부분" maxlength="20" value=""><svg width="1em" height="1em" viewBox="0 0 10 10" fill="currentColor" class="IgBXR">
+                        <path d="M0 3l5 5 5-5z"></path>
+                    </svg></div>
+                </div>
+                <div>
+                    <div>비밀번호</div>
+                    <div><input type="password" placeholder="비밀번호" title="비밀번호"></div>
+                </div>
+                <div>
+                    <div>비밀번호 확인</div>
+                    <div><input type="password" placeholder="비밀번호" title="비밀번호"></div>
+                </div>
+                <div>
+                    <div>이름</div>
+                    <div><input placeholder="이름" title="이름"></div>
+                </div>
+                <div>
+                    <div>생년월일</div>
+                    <div>
+                        <div><input placeholder="년(4자)" title="년"></div>
+                        <div><input placeholder="월" title="월"></div>
+                        <div><input placeholder="일" title="일"></div>
+                    </div>
+                </div>
+                <div>
+                    <div>성별</div>
+                    <div><input placeholder="선택" title="성별"></div>
+                </div>    
+                <div>
+                    <div>휴대전화</div>
+                    <div><input type="tel" placeholder="010" title="010"value=""></div>
+                    <div><input type="tel" placeholder="입력해주세요" value="">
+                        <svg width="1em" height="1em" viewBox="0 0 10 10" fill="currentColor" class="IgBXR">
+                        <path d="M0 3l5 5 5-5z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div>주소
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <button>주소찾기</button>
+                                <input>
+                            </div>
+                            <div>
+                                <textarea>
+                                    주소주소
+                                </textarea>
+                            </div>
+                        </div>
+                        <input placeholder="상세주소입력"> 
+                            <div>
+                                <input>
+                                <span class="_2mDYR">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="_2UftR">
+                                        <path fill="currentColor" d="M6.185 10.247l7.079-7.297 1.435 1.393-8.443 8.703L1.3 8.432l1.363-1.464z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                </div>
+                    <input type="button" value="수정하기">
+                </div>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
