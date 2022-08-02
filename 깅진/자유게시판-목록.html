@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/boardList.css">
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+    <header>
+        <nav id="navi">
+            <a href="#" class="logo"><img src="img/logo.png" alt="logoImg" id="logoImg"></a>
+            <ul>
+                <li><a href="#" class="menu">소개</a></li>
+                <li><a href="#" class="menu">미용</a></li>
+                <li><a href="#" class="menu">관람예술</a></li>
+                <li><a href="#" class="menu">참여예술</a></li>
+                <li><a href="#" class="menu">게시판</a></li>
+                <li><a href="#" class="menu" id="loginBtn">로그인</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div class="kategorie" id="board">
+            <ul>
+                <li>자유게시판</li>
+                <li>모집</li>
+            </ul>
+            <div></div>
+            <div></div>
+        </div>
+        <article id="beautysSearch">
+            <form id="search">
+                <input placeholder="검색어를 입력해주세요">
+                <button><img src="img/icon 돋보기.png" alt="검색버튼"></button>
+            </form>
+        </article>
+        <div>
+            <a>#<span>인기순 <img src="img/arrowBottomPink.png" alt="펼치기"></span></a>
+            <button>글쓰기</button>
+        </div>
+        <article class="board">
+            <a>
+                <div>
+                    <p>
+                        <span class="chat">잡담</span>
+                        <span class="popularity">인기</span>
+                    </p>
+                    <div>
+                        <div>
+                            <p>제육볶음 레시피</p>
+                            <div>
+                                재료 : 돼지앞다리살 350g, 대파 1.5줄기, 양파 작은것 1개, 양배추 65g, 당근 35g, 청·홍고추 각각1/2개,
+                                진간장(2), 황설탕(2), 고추장듬뿍(1), 고춧가루(1), 다진마늘(1), 참기름(1), 후춧가루 기호껏, 식용유(3), 물 1/2컵(90ml)
+                            </div>
+                        </div>
+                        <img src="img/board.png" alt="미리보기">
+                    </div>
+                    <div>
+                        <span><img src="img/user.png" alt="프로필사진"></span>&ensp;
+                        <sapn>농담곰</sapn>&ensp;
+                        댓글 <span>1<span>개&ensp;
+                        조회 <span>22<span>&ensp;
+                        <span><img src="img/hart.png" alt="좋아"> 178</span>&ensp;
+                        <span>1분 전</span>
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <p>
+                        <span class="chat">잡담</span>
+                    </p>
+                    <div>
+                        <div>
+                            <p>Aimyon - marigold 노래 들어본 사람!</p>
+                            <div>
+                                유튜브 알고리즘으로 우연히 들었는데 정신차리니까 이틀내내 이 노래만 듣고 있어
+                                이 노래 뭐야? 부두교의 주술 같은 거야? 안 들어본 사람 있으면 들어봐.. 소름돋음..
+                                ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span><img src="img/user1.png" alt="프로필사진"></span>&ensp;
+                        <sapn>키티</sapn>&ensp;
+                        댓글 <span>1</span>개&ensp;
+                        조회 <span>22</span>&ensp;
+                        <span><img src="img/hart.png" alt="좋아"> 178</span>&ensp;
+                        <span>1분 전</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <!-- 페이지 넘버링 -->
+        <article id="pageCount">
+            <div>
+                <a href=""><<</a>
+                <a href=""><</a>
+            </div>
+            <p><a href="" id="pageClick">1</a><a href="">2</a><a href="">3</a></p>
+            <div>
+                <a href="">></a>
+                <a href="">>></a>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
